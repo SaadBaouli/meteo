@@ -8,9 +8,10 @@ function Grp204WeatherApp() {
 const [input, setInput] = useState('');
 const [weather, setWeather] = useState({
 loading: false,
-data: {},
+data: {} ,
 error: false,
 });
+
 const toDateFunction = () => {
 const months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août',
 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
