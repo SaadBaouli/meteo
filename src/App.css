@@ -1,3 +1,36 @@
-*{
-  background-color: beige;
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.App.day {
+  background-color: #f0f8ff;
+  color: #000;
+}
+
+.App.night {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.favorites button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.forecast-day {
+  text-align: center;
 }
